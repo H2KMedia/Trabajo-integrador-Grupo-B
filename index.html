@@ -8,12 +8,46 @@
     <link rel="stylesheet" href="style.css">
     <title>Página Base</title>
 </head>
-<body>
-
-
-
-    
+<body>   
 <h1>INICIO CONFIG</h1>
+<form id="formulario" action="">
+    <h1>FORMULARIO</h1>
+
+
+
+
+
+
+
+
+
+    //Formulario de contacto
+    <input placeholder="DNI"      type="number" min="1000000" max="99999999" id="dni" name="dni" required="required"/>
+    <br></br>
+    <input placeholder="Nombre"   type="text" size="20" id="nombre"   name="nombre"   required="required"/>
+    <br></br>
+    <input placeholder="Apellido" type="text" size="20" id="apellido" name="apellido" required="required"/>
+    <br></br>
+    <input placeholder="Fecha de nacimiento" type="date" id="fnac" name="fnac" required="required"/>
+    <br></br>
+    <input placeholder="Email"    type="email"          id="email"    name="email"    required="required"/>
+    <br></br>
+    <input type="button" id="botonenviar" value="Enviar">
+    <input type="reset"  id="botonreset" >
+    
+</form>
+<span id="respuestadelmodelo">Complete el formulario</span>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 
