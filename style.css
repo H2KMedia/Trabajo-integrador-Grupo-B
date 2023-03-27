@@ -27,7 +27,7 @@ box-sizing: border-box;
   display: inline-block;  
 }
 
-img{
+.logo{
   position: fixed;
     left: 200px;
     top: 10px;
