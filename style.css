@@ -22,3 +22,19 @@
     padding: 0;
 box-sizing: border-box;
 }
+
+.barNav{
+  display: inline-block;  
+}
+
+img{
+  position: fixed;
+    left: 200px;
+    top: 10px;
+}
+
+nav{
+  position: fixed;
+    right: 300px;
+    top: 40px;
+}
