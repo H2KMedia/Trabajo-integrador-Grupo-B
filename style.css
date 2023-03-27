@@ -1,40 +1,5 @@
-/* *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    font: inherit;
-  }
-  
-  body {
-    min-height: 100vh;
-  }
-  
-  img, picture, svg, video {
-    display: block;
-    max-width: 100%
-  } */
-
-* {
-    margin: 0;
-    padding: 0;
-box-sizing: border-box;
-}
-
-.barNav{
-  display: inline-block;  
-}
-
-.logo{
-  position: fixed;
-    left: 200px;
-    top: 10px;
-}
-
-nav{
-  position: fixed;
-    right: 300px;
-    top: 40px;
+*, ::before, ::after{
+  margin:  0px;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
