@@ -9,76 +9,324 @@
     <title>Página Base</title>
 </head>
 <body>
-    <!--HEADER-->
-    <header>
-        <img class="logo" src="/images/logo-174-color.ico" alt="logotipo" width="70px" height="70px">
+    <!--Barra de navegacion-->
 
-        <nav>
-            <ul >
-                <li class="barNav">Productos</li>
-                <li class="barNav">Pedidos</li>
-                <li class="barNav">Nosotros</li>
-                <li class="barNav">Contacto</li>
-            </ul>
-        </nav>
+    <div class="contenedor">
 
-    </header>
+        <header>
+            <div class="logo">
+                <a href="#" class="logo">
+                    <img src="Images/logo 174 color.svg" alt="Logo">
+            </div>
 
-    <!--MAIN-->
-    <main>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+            <div class="menu">
+                <nav>
+                    <a href="#productos" class="nav-link">Productos</a>
+                    <a href="#nosotros" class="nav-link">Nosotros</a>
+                    <a href="#pedido" class="nav-link">Pedidos</a>
+                    <a href="#pie" class="nav-link">Contácto</a>
+                </nav>
 
-    </main>
+            </div>
 
-    <!--FOOTER-->
-    <footer>
-        <h1>INICIO CONFIG</h1>
-            <form id="formulario" action="">
-                <h1>FORMULARIO</h1>
+        </header>
 
-                //Formulario de contacto
-                <input placeholder="DNI"      type="number" min="1000000" max="99999999" id="dni" name="dni" required="required"/>
-                <br></b
-                <input placeholder="Nombre"   type="text" size="20" id="nombre"   name="nombre"   required="required"/>
-                <br></br>
-                <input placeholder="Apellido" type="text" size="20" id="apellido" name="apellido" required="required"/>
-                <br></br>
-                <input placeholder="Fecha de nacimiento" type="date" id="fnac" name="fnac" required="required"/>
-                <br></br>
-                <input placeholder="Email"    type="email"          id="email"    name="email"    required="required"/>
-                <br></br>
-                <input type="button" id="botonenviar" value="Enviar">
-                <input type="reset"  id="botonreset" >            
-            </form>
+        <main>
 
-        <span id="respuestadelmodelo">Complete el formulario</span>
+            <!--Pasteleria artesanal-->
+
+            <div class="portada">
+
+                <img class="imgPortada" src="Images/01 - Torta chocolate portada.png" alt="Torta Chocolate ">
+
+                <h1>Pastelería <br> artesanal</h1>
+
+                <p id="p1">
+                    maximus volutpat massa urna. turpis quis viverra id sapien non, laoreet placerat non, Nunc ex elit
+                    odio dui eget quam dui. non ex non. vel ultrices enim. sed
+                    sodales. quam luctus orci viverra laoreet malesuada eget lacus, non. tempor Nullam vel quam urna.
+                    dolor sollicitudin. massa lobortis, non diam nibh Praesent
+                </p>
+
+            </div>
+
+            <div class="elaboracion">
+
+                <!--<img class="fondo" src="Images/Fondo 2.png" alt="fondo torta frutilla">-->
+                <img class="fondo" src="Images/03 - Torta fresas Izq.png" alt="Torta de fresasa">
+                <img class="fondo2" src="Images/frutas adorno.png" alt="frutos">
+                <h2 id="h2ep">Elaboración <br> propia</h2>
+
+                <p class="p2elaboracion">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum adipisci aut nihil qui. Dolor
+                    aliquam deleniti deserunt in eius aliquid ad nostrum ut amet? Nobis nostrum eius atque facere? <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora esse dicta quis recusandae
+                    voluptates modi totam odit excepturi facilis pariatur aperiam, sed voluptas fugit ullam, quidem
+                    natus neque nostrum officiis. <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In perspiciatis magni nihil accusantium rem
+                    accusamus aspernatur deserunt dolor numquam iusto illum quae doloribus quas atque, fugit ipsum
+                    laboriosam dolorem qui!
+                </p>
+
+
+
+            </div>
+
+            <div></div>
+
+            <!--Productos destacados-->
+
+            <div class="dest">
+
+                <h2 id="productos" class="titulodest">Productos destacados</h2>
+
+                <!--destacado1-->
+
+                <div class="recuadrito1">
+
+                    <h5 class="d1tit">Tarta de crema con frutillas.</h5>
+
+                    <p class="d1txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+                        earum vero? Quae cumque quasi odit eligendi dolore odio laudantium, nostrum sed, voluptate
+                        vitae ex labore debitis corporis omnis culpa porro.
+                    </p>
+
+                    <button class="bpedido1">hacé tu pedido</button>
+
+
+
+                </div>
+
+                <img class="img1" src="Images/01 - Tarta de frutillas.png" alt="Tarta frutilla">
+
+                <!--destacado2-->
+
+                <div class="recuadrito2">
+
+                    <h5 class="d2tit">Pastel con salsa de caramelo y nueces.</h5>
+
+                    <p class="d2txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+                        earum vero? Quae cumque quasi odit eligendi dolore odio laudantium, nostrum sed, voluptate
+                        vitae ex labore debitis corporis omnis culpa porro.
+                    </p>
+
+                    <button class="bpedido2">hacé tu pedido</button>
+
+
+                </div>
+
+                <img class="img2" src="Images/02 - pastel salsa caramelo y nueces.png" alt="Pastel Salsa de caramelo">
+
+
+                <!--destacado3-->
+
+                <div class="recuadrito3">
+
+                    <h5 class="d3tit h3">Pastel de chocolate con salsa de chocolate y chispas.</h5>
+
+                    <p class="d3txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+                        earum vero? Quae cumque quasi odit eligendi dolore odio laudantium, nostrum sed, voluptate
+                        vitae ex labore debitis corporis omnis culpa porro.
+                    </p>
+
+                    <button class="bpedido3">hacé tu pedido</button>
+
+
+                </div>
+
+                <img class="img3" src="Images/03 - pastel chocolate salsa chocolate y chispas.png"
+                    alt="Pastel choco con chispas">
+
+                <!--destacado4-->
+
+                <div class="recuadrito4">
+
+                    <h5 class="d4tit">Bizcochuelo de crema y frutos del bosque.</h5>
+
+                    <p class="d4txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+                        earum vero? Quae cumque quasi odit eligendi dolore odio laudantium, nostrum sed, voluptate
+                        vitae ex labore debitis corporis omnis culpa porro.
+                    </p>
+
+                    <button class="bpedido4">hacé tu pedido</button>
+
+                </div>
+
+                <img class="img4" src="Images/04 - Bizcochuelo Crema y Frutos del Bosque.png"
+                    alt="Bizcochuelo Crema y Frutos ">
+
+
+                <!--destacado5-->
+
+                <div class="recuadrito5">
+
+                    <h5 class="d5tit">Cupcake frutos tropicales.</h5>
+
+                    <p class="d5txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+                        earum vero? Quae cumque quasi odit eligendi dolore odio laudantium, nostrum sed, voluptate
+                        vitae ex labore debitis corporis omnis culpa porro.
+                    </p>
+
+                    <button class="bpedido5">hacé tu pedido</button>
+
+                </div>
+
+                <img class="img5" src="Images/05 - cupcake frutos tropicales.png" alt="cupcake frutos tropicales">
+
+                <!--destacado6-->
+
+                <div class="recuadrito6">
+
+                    <h3 class="d6tit">Tarta de crema y nueces.</h3>
+
+                    <p class="d6txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+                        earum vero? Quae cumque quasi odit eligendi dolore odio laudantium, nostrum sed, voluptate
+                        vitae ex labore debitis corporis omnis culpa porro.
+                    </p>
+
+                    <button class="bpedido6">hacé tu pedido</button>
+
+                </div>
+
+                <img class="img6" src="Images/06 - Tarta de crema y nueces.png" alt="Tarta de crema y nuece">
+
+                <div class="nosotros">
+
+                    <h2 class="sobrenosotros" id="nosotros">Sobre nosotros</h2>
+
+                    <p class="nosotrostxt">
+
+                        vitae sit nibh Morbi sapien Praesent Ut vitae odio eget dui. ultrices faucibus non, lacus ex id
+                        Cras nec Nunc lorem. nec In sit lobortis, lorem.
+                        viverra quis ex vel placerat Ut eget tortor. In ex orci urna lobortis, elit.
+                        massa enim. diam
+                        placerat urna fringilla dolor eget tincidunt risus non. Quisque Praesent Praesent tortor.
+                        sollicitudin. Quisque elit. nec id efficitur.
+                        Vestibulum quam porta sed non non commodo Donec Cras ultrices Nullam orci Donec Nam scelerisque
+                        nibh
+                        elementum maximus tincidunt dolor faucibus convallis. scelerisque sit nisi volutpat nisi sit
+                        fringilla Morbi maximus ullamcorper ex non,
+                        varius placerat non orci at, vehicula, quis venenatis in Nullam non lacus tincidunt lacus, sit
+                        quam
+
+                    </p>
+
+                    <img class="local" src="Images/local.jpg" alt="foto interior del Local">
+
+                    <img class="bodegon" src="Images/bodegon.png" alt="composicion elementos para cocina">
+
+                    
+
+                </div>
+
+<!---------------------------------------------------Formulario---------------------------------------------------------------------------->
+
+
+
+                <!-- <Section class="formulario"> -->
+                <div class="pedido" id="pedido">
+                    
+
+                    <h2 class="titPedido">Tu pedido</h2>
+
+                        <div class="fondoForm"></div>
+
+                    
+
+                     <div class="form-container">
+                        <div class="form-header">
+                        <!--    <h2> fomulario </h2> -->
+                        </div>
+                        <form id="user-form" class="form">
+                            <div class="form-box">
+                                <label class="label" for="nombre">Nombre <span>*</span></label>
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                                <small class="error-text">Introducir tu nombre</small>
+                            </div>
+
+                            <div class="form-box">
+                                <label class="label" for="apellido">Apellido <span>*</span></label>
+                                <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                                <small class="error-text">Introducir tu apellido</small>
+                            </div>
+
+                            <div class="form-box">
+                                <label class="label" for="calle">Calle <span>*</span></label>
+                                <input type="text" name="calle" id="calle" placeholder="Calle">
+                                <small class="error-text">Introducir calle</small>
+                            </div>
+
+                            <div class="form-box">
+                                <label class="label" for="numero">Número <span>*</span></label>
+                                <input type="number" name="numero" id="numero" placeholder="Número">
+                                <small class="error-text">Introducir número</small>
+                            </div>
+
+                            <div class="form-box">
+                                <label class="label" for="barrio">Barrio <span>*</span></label>
+                                <input type="text" name="barrio" id="barrio" placeholder="Barrio">
+                                <small class="error-text">Introducir un barrio</small>
+                            </div>
+
+                            <div class="form-box">
+                                <label class="label" for="tel">Tel/Cel <span>*</span></label>
+                                <input type="number" name="tel" id="tel" placeholder="Tel/cel">
+                                <small class="error-text">Introducir un nombre</small>
+                            </div>
+
+                            <div class="form-box">
+                                <textarea name="detalle" id="detalle" cols="65" rows="10"></textarea>
+                                <small class="error-text">Introducir tu opcion</small>
+                            </div>
+                            <div class="form-box">
+                            <button type="submit" id="submit-btn" disabled>Enviar</button>
+                            </div>
+
+                          
+                            
+                            
+                        </form> 
+                    
+                        
+                    
+                    </div>
+
+                    
+                   
+                    
+                
+                   
+
+                   
+                    
+
+                         <!------------Pie de página----------------->       
+
+                        
+                                
+                        </div>
+
+                        
+                        
+                        
+         </main>
+       
+         <script src="Script.js"></script>
+       
+        </body>   
+
+        
+        
+
+    <footer >
+
+
     </footer>
-
-</body>
-
-
-
-
-
-
-<script src="script.js"></script>
+        
 </html>
