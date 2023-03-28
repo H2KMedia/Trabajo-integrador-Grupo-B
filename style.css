@@ -3,3 +3,742 @@
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+.contenedor{
+  margin: 0px auto;
+  max-width: 1440px;   
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+  align-content: center;
+}
+
+/*---------------------------------------------------Header navbar-----------------------------------------------------------*/
+
+
+
+header{
+  z-index: 1;
+  position: fixed;
+  background-color: #a4a4a4;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display:flex;
+  width: 1440px;
+  max-height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo img{
+  height: 50px;
+  top: 3px;
+  width: 101px;
+  height: 46px;
+  margin-right: 20px;
+  margin-left: 156px;
+}
+
+.menu{
+  padding-right: 156px;
+}
+
+nav a{
+  font-weight: 600;
+  
+  margin: 0 20px;
+
+}
+
+nav a:hover{
+
+  color: #ff9f0d;
+}
+
+
+/*------------------------------------------------------Main--------------------------------------------------------------*/
+
+
+.portada{
+  position: absolute;
+  width: 1440px;
+  height: 811px;
+  left: auto;
+  top: 57px;
+}
+
+/*----------------------------------------------Pastelería artesanal------------------------------------------------------*/
+
+
+.imgPortada{
+  position: absolute;
+  width: 862px;
+  height: 573px;
+  left: 578px;
+  top: 0px;
+
+}
+
+h1{
+  position:absolute;
+  width: 461px;
+  height: 291px;
+  left: 247px;
+  top: 275px;
+
+  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style:normal;
+  font-weight: 100;
+  font-size: 96px;
+  line-height: 80%;
+    
+}
+
+h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 92%;
+}
+
+h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 27px;
+  display: flex;
+  align-items:center;
+  color:#000000;
+}
+
+h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 27px;
+  display: flex;
+  align-items:center;
+  color:#000000;
+}
+
+h5{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items:center;
+  color:#000000;
+}
+
+
+
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 461;
+  font-size: 14px;
+  line-height: 19px;
+  
+}
+
+#p1{
+  position:absolute;
+  width: 550px;
+  height: 105px;
+  left: 247px;
+  
+  top: 450px;
+  
+  
+}
+
+.elaboracion{
+  position: absolute;
+  width: 1440px;
+  height:500px;
+  left: auto;
+  top: 550px;
+  
+
+}
+
+
+/*---------------------------------------------------Elaboracion propia-----------------------------------------------------------*/
+
+
+.fondo{
+  position: absolute;
+  width: 404px;
+  height: 873px;
+  left: auto;
+  top: 0px;
+}
+
+.fondo2{
+  position: absolute;
+  width: 352px;
+  height: 621px;
+  left: 950px;
+  top: 110px;
+}
+
+
+
+#h2ep{
+  position: absolute;
+  width: 551px;
+  height: 168px;
+  left: 400px;
+  top: 275px;
+
+}
+.p2elaboracion{
+  position: absolute;
+  width: 551px;
+  height: 240px;
+  left: 400px;
+  top: 420px;
+}
+
+
+
+/*---------------------------------------------------DESTACADOS-----------------------------------------------------------*/
+
+
+
+/*div recuadro destacados ref*/
+.dest{
+  
+  position:absolute;
+  width: 1440px;
+  height: 800px;
+  left: auto;
+  top: 1490px;
+  /*background-color: beige;*/
+
+}
+
+.titulodest{
+  position: absolute;
+  text-align: center;
+  width: 1440px;
+  height: 114px;
+  left: auto;
+  top: 40px;
+  scroll-margin: 100px;
+}
+
+/*recuadro fondito destacados 1*/
+
+.recuadrito1{
+  position: absolute;
+  width: 360px;
+  height: 346px;
+  left: 156px;
+  top: 305px;
+  background-color:rgb(255, 207, 134) ;
+  
+}
+
+.img1{
+  position: absolute;
+  width: 360px;
+  height: 267px;
+  left: 156px;
+  top: 140px;
+}
+
+.d1tit{
+  position:absolute;
+
+  width: 360px;
+  height: 267px;
+  left: 23px;
+  top: 0px;
+}
+
+.d1txt{
+  position:absolute;
+  width: 316px;
+  height: 67px;
+  left: 23px;
+  top: 165px;
+}
+
+button{
+  background-color: #ff9f0d;
+  border: 0px;
+  color:rgb(0, 0, 0);
+  font-weight: 600;
+  width: 168px;
+  height: 47px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px rgb(91, 91, 91);
+  
+
+}
+
+button:hover{
+  background-color: #343434;
+  border: 0px;
+  color:white;
+  font-weight: 600;
+  width: 168px;
+  transition-delay: 10ms;
+  height: 47px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px rgb(0, 0, 0);
+}
+
+button:target{
+  
+}
+
+.bpedido1{
+  position:absolute;
+  left: 86px;
+  top: 280px;
+  
+}
+
+/*recuadro fondito destacados 2*/
+
+.recuadrito2{
+  position: absolute;
+  width: 360px;
+  height: 346px;
+  left: 539px;
+  top: 305px;
+  background-color:rgb(255, 207, 134) ;
+  
+}
+
+.img2{
+  position: absolute;
+  width: 360px;
+  height: 267px;
+  left: 539px;
+  top: 140px;
+}
+
+.d2tit{
+  position:absolute;
+
+  width: 360px;
+  height: 267px;
+  left: 23px;
+  top: 0px;
+}
+
+.d2txt{
+  position:absolute;
+  width: 316px;
+  height: 67px;
+  left: 23px;
+  top: 165px;
+}
+
+
+.bpedido2{
+  position:absolute;
+  left: 86px;
+  top: 280px;
+  
+}
+
+/*recuadro fondito destacados 3*/
+
+.recuadrito3{
+  position: absolute;
+  width: 360px;
+  height: 346px;
+  left: 923px;
+  top: 305px;
+  background-color:rgb(255, 207, 134) ;
+  
+}
+
+.img3{
+  position: absolute;
+  width: 360px;
+  height: 267px;
+  left: 923px;
+  top: 140px;
+}
+
+.d3tit{
+  position:absolute;
+
+  width: 360px;
+  height: 267px;
+  left: 23px;
+  top: 0px;
+}
+
+.d3txt{
+  position:absolute;
+  width: 316px;
+  height: 67px;
+  left: 23px;
+  top: 165px;
+}
+
+
+.bpedido3{
+  position:absolute;
+  left: 86px;
+  top: 280px;
+  
+}
+
+/*recuadro fondito destacados 4*/
+
+.recuadrito4{
+  position: absolute;
+  width: 360px;
+  height: 346px;
+  left: 156px;
+  top: 835px;
+  background-color:rgb(255, 207, 134) ;
+  
+}
+
+.img4{
+  position: absolute;
+  width: 360px;
+  height: 267px;
+  left: 156px;
+  top: 670px;
+}
+
+.d4tit{
+  position:absolute;
+
+  width: 360px;
+  height: 267px;
+  left: 23px;
+  top: 0px;
+}
+
+.d4txt{
+  position:absolute;
+  width: 316px;
+  height: 67px;
+  left: 23px;
+  top: 165px;
+}
+
+
+.bpedido4{
+  position:absolute;
+  left: 86px;
+  top: 280px;
+  
+}
+
+/*recuadro fondito destacados 5*/
+
+.recuadrito5{
+  position: absolute;
+  width: 360px;
+  height: 346px;
+  left: 539px;
+  top: 835px;
+  background-color:rgb(255, 207, 134) ;
+  
+}
+
+.img5{
+  position: absolute;
+  width: 360px;
+  height: 267px;
+  left: 539px;
+  top: 670px;
+}
+
+.d5tit{
+  position:absolute;
+
+  width: 360px;
+  height: 267px;
+  left: 23px;
+  top: 0px;
+}
+
+.d5txt{
+  position:absolute;
+  width: 316px;
+  height: 67px;
+  left: 23px;
+  top: 165px;
+}
+
+
+.bpedido5{
+  position:absolute;
+  left: 86px;
+  top: 280px;
+  
+}
+
+/*recuadro fondito destacados 6*/
+
+.recuadrito6{
+  position: absolute;
+  width: 360px;
+  height: 346px;
+  left: 923px;
+  top: 835px;
+  background-color:rgb(255, 207, 134) ;
+  
+}
+
+.img6{
+  position: absolute;
+  width: 360px;
+  height: 267px;
+  left: 923px;
+  top: 670px;
+}
+
+.d6tit{
+  position:absolute;
+
+  width: 360px;
+  height: 267px;
+  left: 23px;
+  top: 0px;
+}
+
+.d6txt{
+  position:absolute;
+  width: 316px;
+  height: 67px;
+  left: 23px;
+  top: 165px;
+}
+
+
+.bpedido6{
+  position:absolute;
+  left: 86px;
+  top: 280px;
+  
+}
+
+/*div recuadro nosotros ref*/
+
+.nosotros{
+  
+  position:absolute;
+  width: 1440px;
+  height: 740px;
+  left: auto;
+  top: 1450px;
+ /*background-color: beige;*/
+  
+}
+
+.sobrenosotros{
+  position:absolute;
+  width: 551px;
+  height: 69px;
+  left: 539px;
+  top: 0px;
+  scroll-margin-top: 150px;
+
+}
+
+.nosotrostxt{
+  position:absolute;
+  width: 450px;
+  height: 69px;
+  left: 539px;
+  top: 80px;
+  
+
+}
+
+.local{
+  position: absolute;
+  width: 360px;
+  height: 540px;
+  left: 156px;
+  top: 0px;
+}
+
+.bodegon{
+  position: absolute;
+  width: 539px;
+  height: 554px;
+  right: 0px;
+  top: 0px;
+
+}
+
+.pedido{
+
+  position:absolute;
+  width: 1440px;
+  height: 840px;
+  left: auto;
+  top: 2150px;
+  /*background-color: beige;*/
+  scroll-margin-top: 76px;
+  
+}
+
+.titPedido{
+  position: absolute;
+  width: 600px;
+  height: 64px;
+  left: 156px;
+  top: 0px;
+  
+}
+
+.form-container{
+  
+  position: absolute;
+  width: 1128px;
+  height: 670px;
+  left: 156px;
+  top: 80px;
+  background-color:#ff9f0d;
+  min-height: 46%;
+  padding: 50px;
+  
+
+}
+
+.form{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  /*padding: 25px 40px;*/
+  gap: 12px;
+  
+}
+
+.form-box{
+  line-height: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+
+}
+
+.form-box input{
+  display: block;
+  width: 90%;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px;
+  line-height: 20Px;
+
+}
+
+.form button{
+  display:block;
+}
+
+
+
+
+.form-box button{
+  z-index: 100;
+  position: absolute;
+  background-color: #396ac6;
+  border: 0px;
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  width: 168px;
+  height: 47px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px rgb(91, 91, 91);
+  left:  570px;
+  top: 570px;
+
+}
+
+.form-box button:hover{
+  background-color: #343434;
+  border: 0px;
+  color:white;
+  font-weight: 600;
+  width: 168px;
+  transition-delay: 10ms;
+  height: 47px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px rgb(0, 0, 0);
+}
+
+.form-box img{
+  position: absolute;
+  left: 720px;
+  top: 360px;
+  width: 40%;
+  
+}
+
+.form button:disabled{
+  background-color: #a4a4a4;
+  color:lightgrey;
+}
+
+
+.form-box input:focus{
+  outline-color: #3456bbc6;
+
+}
+
+.form-box .error-text{
+  color: #e92525;
+  visibility: hidden;
+}
+
+.from-box.form-error input{
+  border-bottom: 2px solid #e92525;
+}
+
+.form-box.form-error .error-text{
+  color: #e92525;
+  visibility: visible;
+}
+
+.form-box .form-succes input{
+  border-bottom: 2px solid #3456bbc6;
+}
+
+
+
+
+/*--------------Footer-------------------*/
+
+
+.pie{
+  position: absolute;
+  display: flex;
+  background-color: #a4a4a4;
+  width: 1440px;
+  height: 120px;
+  max-width: 1440px;
+  top: 4500px;
+  left: autopx;
+}
