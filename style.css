@@ -308,9 +308,6 @@ button:hover{
   box-shadow: 3px 3px 8px rgb(0, 0, 0);
 }
 
-button:target{
-  
-}
 
 .bpedido1{
   position:absolute;
