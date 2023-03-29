@@ -598,7 +598,6 @@ button:hover{
   height: 840px;
   left: auto;
   top: 2150px;
-  /*background-color: beige;*/
   scroll-margin-top: 76px;
   
 }
@@ -670,7 +669,7 @@ button:hover{
   border-radius: 5px;
   box-shadow: 3px 3px 8px rgb(91, 91, 91);
   left:  570px;
-  top: 570px;
+  top: 530px;
 
 }
 
@@ -686,13 +685,7 @@ button:hover{
   box-shadow: 3px 3px 8px rgb(0, 0, 0);
 }
 
-.form-box img{
-  position: absolute;
-  left: 720px;
-  top: 360px;
-  width: 40%;
-  
-}
+
 
 .form button:disabled{
   background-color: #a4a4a4;
@@ -721,7 +714,23 @@ button:hover{
 
 .form-box .form-succes input{
   border-bottom: 2px solid #3456bbc6;
+
 }
+
+
+/*------------------------------------------------contacto-------------------------------------------------------------------*/
+.contacto{
+  position:absolute;
+  width: 1440px;
+  height: 840px;
+  left: auto;
+  top: 900px;
+  scroll-margin-top: 76px;
+  background-color: aquamarine;
+
+}
+
+
 
 
 
@@ -732,10 +741,10 @@ button:hover{
 .pie{
   position: absolute;
   display: flex;
-  background-color: #a4a4a4;
+  background-color:#ff9f0d;
   width: 1440px;
   height: 120px;
   max-width: 1440px;
-  top: 4500px;
+  top: 5500px;
   left: autopx;
 }
