@@ -57,8 +57,7 @@ header{
 
 nav a{
   font-weight: 600;
-  
-  margin: 0 20px;
+   margin: 0 20px;
 
 }
 
@@ -66,6 +65,8 @@ nav a:hover{
 
   color: #ff9f0d;
 }
+
+
 
 
 /*------------------------------------------------------Main--------------------------------------------------------------*/
@@ -537,7 +538,7 @@ button:hover{
 .bpedido6{
   position:absolute;
   left: 86px;
-  top: 280px;
+  top: 110px;
   
 }
 
@@ -650,15 +651,15 @@ button:hover{
 
 }
 
-.form button{
-  display:block;
+.submit-btn{
+  position: absolute;
+  top: 520px;
+  left:  1200px;
 }
 
 
-
-
 .form-box button{
-  z-index: 100;
+ /* z-index: 100;*/
   position: absolute;
   background-color: #396ac6;
   border: 0px;
@@ -667,9 +668,8 @@ button:hover{
   width: 168px;
   height: 47px;
   border-radius: 5px;
-  box-shadow: 3px 3px 8px rgb(91, 91, 91);
-  left:  570px;
-  top: 530px;
+  box-shadow: 3px 3px 8px rgb(58, 57, 57);
+  left:  auto;
 
 }
 
