@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
-
 *, ::before, ::after{
   margin:  0px;
   box-sizing: border-box;
@@ -171,6 +169,11 @@ p{
   top: 450px;
   
   
+}
+
+label{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
 }
 
 .elaboracion{
@@ -652,131 +655,15 @@ button:hover{
   line-height: 20Px;
 
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------------
-                                            PRUEBA DE CÓDIGO PARA BOTÓN ANIMADO
-----------------------------------------------------------------------------------------------------------------------------------------------
-*/
-button.expand {
-	--button-height: 48px;
-	overflow: hidden;
-	outline: none;
-	background-color: #1f2024;
-	border-radius: 10px;
-	padding: 12px 25px;
-	font-size: 1.1em;
-	border: none;
-	color: white;
-	font-family: "Nunito", sans-serif;
-	cursor: pointer;
-	position: relative;
-	transition: padding 0.3s;
-}
 
-.expand-icon {
-	--icon-size: 10px;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: var(--button-height);
-	width: var(--button-height);
-	border-left: 1px solid #eee;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transform: translateX(calc(var(--button-height) + 1px));
-	transition: transform 0.3s;
-}
-
-.expand-icon > svg {
-	height: var(--icon-size);
-	width: var(--icon-size);
-	transform: scale(1.5);
-	transition: transform 0.3s;
-}
-
-.expand-icon > svg.second {
-	display: none;
-	transform: scale(0) translateY(50px);
-	transition: transform 0.3s;
-}
-
-button.expand:hover,
-button.expand.loading {
-	padding-right: calc(25px + var(--button-height));
-}
-
-button.expand:hover > .expand-icon,
-button.expand.loading > .expand-icon {
-	transform: translateX(0);
-	transition: transform 0.3s 0.05s;
-}
-
-button.expand.loading > .expand-icon > svg {
-	transform: scale(0);
-}
-
-@keyframes rotate {
-	0% {
-		transform: scale(0.3) rotateZ(0deg);
-	}
-	100% {
-		transform: scale(0.3) rotateZ(360deg);
-	}
-}
-
-.loader {
-	--loader-size: 52px;
-	height: var(--loader-size);
-	width: var(--loader-size);
-	border: 4px solid white;
-	border-left-color: transparent;
-	border-right-color: transparent;
-	background-color: transparent;
-	border-radius: 50%;
-	animation: rotate 1.5s linear infinite;
-	position: absolute;
-	right: 0;
-	opacity: 0;
-	pointer-events: none;
-	transition: opacity 1s 0.3s;
-}
-
-button.expand.loading > span > span.loader {
-	opacity: 1;
-}
-
-button.expand.loaded > span > span.loader {
-	opacity: 0 !important;
-}
-
-button.expand.loaded > .expand-icon > svg.first {
-	display: none;
-}
-
-button.expand.loaded > .expand-icon > svg.second {
-	display: block;
-}
-
-button.expand.finished > .expand-icon > svg.second {
-	transform: scale(1.5) translateY(0px);
-}
-
-/*--------------------------------------------------------------------------------------------------------------------------------------------
-                                           FIN DE PRUEBA DE CÓDIGO PARA BOTÓN ANIMADO
-----------------------------------------------------------------------------------------------------------------------------------------------
-*/
-
-/*
 .submit-btn{
   position: absolute;
-  top: 520px;
+  top: 470px;
   left:  1200px;
 }
 
 
 .form-box button{
- /* z-index: 100;
   position: absolute;
   background-color: #396ac6;
   border: 0px;
@@ -808,7 +695,7 @@ button.expand.finished > .expand-icon > svg.second {
   background-color: #a4a4a4;
   color:lightgrey;
 }
-*/
+
 
 .form-box input:focus{
   outline-color: #3456bbc6;
@@ -836,24 +723,101 @@ button.expand.finished > .expand-icon > svg.second {
 
 
 /*------------------------------------------------contacto-------------------------------------------------------------------*/
-.contacto{
-
-
-}
-
 
 .contacto{
-  display: flex;
-  flex-direction: column-reverse;
   position:absolute;
-  width: 1140px;
-  height: 400px;
-  left: 156px;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 550px;
+  left: auto;
   top: 900px;
   scroll-margin-top: 76px;
-  background-color: aquamarine;
+  /*background-color:#686868;*/
 
 }
+
+.contacto-titulo{
+  position: absolute;
+  display: flex;
+  margin: 0;
+  top: 0;
+  left: 156px;
+
+}
+
+.fondo-contacto{
+  z-index: 100;
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  width: 1130px;
+  height: 460px;
+  left: 156px;
+  top: 86px;
+  align-items: center;
+  background-color:#ff9f0d;
+
+}
+
+
+
+form{
+  position: absolute;
+  display: flex;
+  top: 40px;
+}
+
+.nombreContacto{
+  position: absolute;
+  width: 200px;
+  height: 47px;
+  top: 330;
+}
+
+.email{
+  position: absolute;
+  width: 65px;
+  height: 47px;
+  left: 240px;
+  top: 335px;
+}
+
+.contactForm button{
+  position: absolute;
+  background-color: #396ac6;
+  border: 0px;
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  width: 168px;
+  height: 47px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px rgb(58, 57, 57);
+  right: 0px;
+  top: 335px;
+
+}
+
+.contactForm button:hover{
+  background-color: #343434;
+  border: 0px;
+  color:white;
+  font-weight: 600;
+  width: 168px;
+  transition-delay: 10ms;
+  height: 47px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px rgb(0, 0, 0);
+}
+
+
+
+.contactForm button:disabled{
+  background-color: #a4a4a4;
+  color:lightgrey;
+}
+
+
 
 
 
@@ -866,10 +830,31 @@ button.expand.finished > .expand-icon > svg.second {
 .pie{
   position: absolute;
   display: flex;
-  background-color:#ff9f0d;
+  background-color:#a4a4a4;
   width: 1440px;
   height: 120px;
   max-width: 1440px;
-  top: 5500px;
+  top: 5200px;
   left: autopx;
+}
+
+.site{
+  position: absolute;
+  top: 20px;
+  left: 156px;
+}
+
+.desarrolladores{
+  position: absolute;
+  font-size: 1em;
+  top: 70px;
+  left: 156px;
+
+}
+
+.seguinos{
+  position: absolute;
+  top: 20px;
+  left: 828px;
+
 }

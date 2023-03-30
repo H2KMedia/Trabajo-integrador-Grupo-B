@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Página Base</title>
 </head>
@@ -25,7 +24,7 @@
                     <a href="#productos" class="nav-link">Productos</a>
                     <a href="#nosotros" class="nav-link">Nosotros</a>
                     <a href="#pedido" class="nav-link">Pedidos</a>
-                    <a href="#pie" class="nav-link">Contácto</a>
+                    <a href="#contacto" class="nav-link">Contácto</a>
                 </nav>
 
             </div>
@@ -208,12 +207,9 @@
                             <br>
                         <div class="fondoForm"></div>
     
-                        
-    
-                         <div class="form-container">
-                            <div class="form-header">
-                            <!--    <h2> fomulario </h2> -->
-                            </div>
+                        <div class="form-container">
+                            <div class="form-header"></div>
+
                                 <form id="user-form" class="form">
                                     <div class="form-box">
                                         <label class="label" for="nombre">Nombre <span>*</span></label>
@@ -251,30 +247,14 @@
                                     <!--  <small class="error-text">Introducir un nombre</small> -->
                                     </div>
                                     <div class="form-box">
-                                        <label class="label" for="detalle">Detalle</label>
+                                        <label class="label" for="detalle">Detalle</label> <br>
                                         <textarea name="detalle" id="detalle" cols="65" rows="10"></textarea>
                                         <small class="error-text">Introducir tu opcion</small>
                                     </div>
                                     <div class="form-box">
-                                        <button class="expand">
-                                            Enviar
-                                            <span class="expand-icon expand-hover">
-                                                <svg class="first" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 32 32" version="1.1">
-                                                    <path d="M8.489 31.975c-0.271 0-0.549-0.107-0.757-0.316-0.417-0.417-0.417-1.098 0-1.515l14.258-14.264-14.050-14.050c-0.417-0.417-0.417-1.098 0-1.515s1.098-0.417 1.515 0l14.807 14.807c0.417 0.417 0.417 1.098 0 1.515l-15.015 15.022c-0.208 0.208-0.486 0.316-0.757 0.316z" />
-                                                </svg>
-                                                <span class="loader"></span>
-                                                <svg class="second" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none">
-                                                    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 5L8 15l-5-4" />
-                                                </svg>
-                                            </span>
-                                        </button>
-                                        <!--<button type="submit" id="submit-btn" class="submit-btn" disabled>Enviar</button>-->
+                                        <button type="submit" id="submit-btn" class="submit-btn" disabled>Enviar</button>
                                     </div>
-        
-                                
-                                    
-                                    
-                                </form> 
+                                 </form> 
                         
                             
                         
@@ -282,95 +262,42 @@
 
 
                         <!----------------------  Contacto ---------------------------------->
-    
-                       <!-- <div class="contacto" id="contacto">
-                            <form action="" class="formcontacto">
-                                <h3>Contacto</h3>
+                      
 
-                               
-                                <div>
-                                    <label for="nombre">Nombre</label>
-                                    <input type="text" placeholder="ingrese su nombre" id="nombre">
-                                </div>
-                                <div>
-                                    <label for="email">e-mail</label>
-                                    <input type="email" placeholder="email@mail.com" id="email">
-                                </div>
-                                <div>
-                                    <label for="enviar">Nombre</label>
-                                    <input type="submit" placeholder="Enviar" id="enviar">
-                                </div>
-                                <div>
-                                    <label for="">Sugerencias / comentarrios /consultas</label>
-                                    <textarea name="sugerencias" id="sugerencias" cols="60" rows="15"></textarea>
-                                </div>
-
-                            </form>-->
-                            
-                            <div class="contacto" id="contacto">
+                         <div class="contacto" id="contacto"><br>
                             
                             
-                          
-                            <div class="container px-5 my-5">
-                               
-
-                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                    <h3 class="title">Contacto</h3>
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                                        <label for="emailAddress">Direccion de Email</label>
-                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Debe ingresar una dirección de Email</div>
-                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">La dirección de Email no es correcta</div>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
-                                        <label for="message">Mensaje</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">Debe ingresar un Mensaje</div>
-                                    </div>
-                                    <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Form submission successful!</div>
-                                            <p>To activate this form, sign up at</p>
-                                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                        </div>
-                                    </div>
-                                    <div class="d-none" id="submitErrorMessage">
-                                        <div class="text-center text-danger mb-3">Error de envío!</div>
-                                    </div>
-                                    <div class="d-grid">
-                                        <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button>
-                                    </div>
-                                </form>
-                            </div>
-                            </div>
-                        </div>
-                         
-
-
-
-
-
-
-
-
-
-
-
-
-                        </div>
-                       
-                          
+                                <h2 class="contacto-titulo">Contacto</h2>
                             
+                            
+                            
+                                <div class="fondo-contacto">
+
                                     
+                            
+                                    <form action="" class="contactForm">
+                                        <div class="contactForm">
+                                            <label class="label" for="sugerencia">Sugerencias / Comentarios / Consultas </label><br><br>
+                                            <textarea name="sugerencia" id="sugerencia" cols="65" rows="15"></textarea><br><br>
+                                        </div>
+
+                                        <div class="contactForm">
+                                                <label for="nombreContacto">Nombre</label><br><br>
+                                                <input type="text" name="nombreContacto" class="nombreContacto" id="nombreContacto" placeholder="Nombre"><br>
+                                                
+                                                <label for="email">e-mail</label> <br><br>
+                                                <input type="email" name="email" class="email" id="email" placeholder="nombre@mail">
+                                                <button type="submit" id="submit-btn2" >Enviar</button>
+                                        </div>
+                                    </form> 
+                                </div>
+                        </div>
+                                  
                     </div>
-    
-                            
-                            
-                            
+                     
              </main>
            
              <script src="Script.js"></script>
-             <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
            
             </body>   
     
@@ -380,8 +307,9 @@
         <footer >
             <div class="pie" id="pie">
 
-                <p>Sitio realizado por: </p>
-                
+                <div><h5 class="site">Sitio desarrollado por: </h5></div><br>
+                <div><p class="desarrolladores"> Esteban Luna - Victor Moyano Cires - Juan Silva - Eduardo Basta</p></div>
+                <div><h5 class="seguinos">Seguinos en nuestras redes</h5></div>
     
             
                     
