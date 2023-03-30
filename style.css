@@ -704,6 +704,13 @@ label{
 
 }
 
+
+.caja{
+  position: absolute;
+  left: 720px;
+  top: 350px;
+}
+
 .form-box .error-text{
   color: #e92525;
   visibility: hidden;
