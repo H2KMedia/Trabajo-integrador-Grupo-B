@@ -727,10 +727,9 @@ button:hover{
 .contacto{
   position:absolute;
   display: flex;
-  flex-direction: column;
   width: 1440px;
   height: 550px;
-  left: auto;
+ 
   top: 900px;
   scroll-margin-top: 76px;
   /*background-color:#686868;*/
@@ -739,7 +738,6 @@ button:hover{
 
 .contacto-titulo{
   position: absolute;
-  display: flex;
   margin: 0;
   top: 0;
   left: 156px;
@@ -750,7 +748,7 @@ button:hover{
   z-index: 100;
   position:absolute;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 1130px;
   height: 460px;
   left: 156px;
