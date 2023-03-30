@@ -720,10 +720,18 @@ button:hover{
 
 /*------------------------------------------------contacto-------------------------------------------------------------------*/
 .contacto{
+
+
+}
+
+
+.contacto{
+  display: flex;
+  flex-direction: column-reverse;
   position:absolute;
-  width: 1440px;
+  width: 1140px;
   height: 400px;
-  left: auto;
+  left: 156px;
   top: 900px;
   scroll-margin-top: 76px;
   background-color: aquamarine;
