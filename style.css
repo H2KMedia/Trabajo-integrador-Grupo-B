@@ -829,26 +829,13 @@ label{
 
 #btnContacto:hover{
   background-color: #343434;
-
 }
 
 .info{
   background: #343434;
   padding: 7em;
-
 }
-
-
-
-
-
-
-
-
 /*---------------------------------------------------Footer-----------------------------------------------------------*/
-
-
-
 .pie{
   position: absolute;
   display: flex;
@@ -878,5 +865,13 @@ label{
   position: absolute;
   top: 20px;
   left: 828px;
-
+}
+.redessociales {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 60px; 
+  left: 828px;
+  font-size: 1.5rem;
+  justify-content: space-evenly;
 }
