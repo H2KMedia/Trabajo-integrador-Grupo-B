@@ -574,6 +574,7 @@ label{
 }
 
 .nosotrostxt{
+  z-index: 1;
   position:absolute;
   width: 450px;
   height: 69px;
