@@ -867,11 +867,12 @@ label{
   left: 828px;
 }
 .redessociales {
-  display: flex;
-  flex-direction: row;
   position: absolute;
+  display: flex;
+  
+  flex-flow :row;
   top: 60px; 
   left: 828px;
-  font-size: 1.5rem;
-  justify-content: space-evenly;
+  font-size: 1em;
+  
 }

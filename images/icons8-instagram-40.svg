@@ -1,1 +1,12 @@
-<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="40px" height="40px">    <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<?xml-stylesheet href="icons8-instagram-40.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="9.3134mm" height="9.3134mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 931.34 931.34"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M275.17 0c-151.77,0 -275.17,123.4 -275.17,275.17l0 381c0,151.77 123.4,275.17 275.17,275.17l381 0c151.77,0 275.17,-123.4 275.17,-275.17l0 -381c0,-151.77 -123.4,-275.17 -275.17,-275.17l-381 0zm444.5 169.34c23.28,0 42.33,19.05 42.33,42.33 0,23.28 -19.05,42.33 -42.33,42.33 -23.28,0 -42.33,-19.05 -42.33,-42.33 0,-23.28 19.05,-42.33 42.33,-42.33zm-254 63.5c128.48,0 232.83,104.35 232.83,232.83 0,128.48 -104.35,232.83 -232.83,232.83 -128.48,0 -232.83,-104.35 -232.83,-232.83 0,-128.48 104.35,-232.83 232.83,-232.83zm0 56.79c-97.02,0 -176.04,79.02 -176.04,176.04 0,97.02 79.02,176.04 176.04,176.04 97.02,0 176.04,-79.02 176.04,-176.04 0,-97.02 -79.02,-176.04 -176.04,-176.04z"/>
+ </g>
+</svg>
