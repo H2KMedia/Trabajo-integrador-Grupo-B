@@ -139,14 +139,16 @@ h4{
 }
 
 h5{
+  
+  box-sizing: border-box 1;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: normal;
-  font-weight: 600;
   font-size: 20px;
   line-height: 27px;
   display: flex;
   align-items:center;
   color:#000000;
+  
 }
 
 
@@ -255,6 +257,7 @@ label{
 /*recuadro fondito destacados 1*/
 
 .recuadrito1{
+  
   position: absolute;
   width: 360px;
   height: 346px;
@@ -273,12 +276,13 @@ label{
 }
 
 .d1tit{
+  display: table;
+  display: table-cell;
+  vertical-align: top;
   position:absolute;
-
-  width: 360px;
-  height: 267px;
   left: 23px;
-  top: 0px;
+  top: 110px;
+  
 }
 
 .d1txt{
@@ -342,12 +346,12 @@ label{
 }
 
 .d2tit{
+  display: table;
+  display: table-cell;
+  vertical-align: top;
   position:absolute;
-
-  width: 360px;
-  height: 267px;
   left: 23px;
-  top: 0px;
+  top: 110px;
 }
 
 .d2txt{
@@ -387,12 +391,12 @@ label{
 }
 
 .d3tit{
+  display: table;
+  display: table-cell;
+  vertical-align: top;
   position:absolute;
-
-  width: 360px;
-  height: 267px;
   left: 23px;
-  top: 0px;
+  top: 110px;
 }
 
 .d3txt{
@@ -432,12 +436,12 @@ label{
 }
 
 .d4tit{
+  display: table;
+  display: table-cell;
+  vertical-align: top;
   position:absolute;
-
-  width: 360px;
-  height: 267px;
   left: 23px;
-  top: 0px;
+  top: 110px;
 }
 
 .d4txt{
@@ -477,12 +481,12 @@ label{
 }
 
 .d5tit{
+  display: table;
+  display: table-cell;
+  vertical-align: top;
   position:absolute;
-
-  width: 360px;
-  height: 267px;
   left: 23px;
-  top: 0px;
+  top: 110px;
 }
 
 .d5txt{
@@ -522,12 +526,12 @@ label{
 }
 
 .d6tit{
+  display: table;
+  display: table-cell;
+  vertical-align: top;
   position:absolute;
-
-  width: 360px;
-  height: 267px;
   left: 23px;
-  top: 0px;
+  top: 110px;
 }
 
 .d6txt{
@@ -546,7 +550,8 @@ label{
   
 }
 
-/*div recuadro nosotros ref*/
+/*---------------------------------------------------Nosotros-----------------------------------------------------------*/
+
 
 .nosotros{
   
@@ -555,7 +560,6 @@ label{
   height: 740px;
   left: auto;
   top: 1450px;
- /*background-color: beige;*/
   
 }
 
@@ -596,6 +600,11 @@ label{
 
 }
 
+
+/*---------------------------------------------------Form Pedido-----------------------------------------------------------*/
+
+
+
 .pedido{
 
   position:absolute;
@@ -633,7 +642,6 @@ label{
 .form{
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  /*padding: 25px 40px;*/
   gap: 12px;
   
 }
@@ -707,6 +715,7 @@ label{
 
 .caja{
   position: absolute;
+  size: 100%;
   left: 720px;
   top: 350px;
 }
@@ -731,7 +740,7 @@ label{
 }
 
 
-/*------------------------------------------------contacto-------------------------------------------------------------------*/
+/*------------------------------------------------Form contacto-------------------------------------------------------------------*/
 
 .contacto{
   position:absolute;
@@ -744,7 +753,7 @@ label{
 
 }
 
-/*----------------------form contacto-------------------*/
+
 
 .contacto-titulo{
   position: absolute;
@@ -798,7 +807,7 @@ label{
 .fondo-contacto form{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5px;
+  gap: 2px;
 }
 
 .fondo-contacto form .block{
@@ -836,7 +845,8 @@ label{
 
 
 
-/*--------------Footer-------------------*/
+/*---------------------------------------------------Footer-----------------------------------------------------------*/
+
 
 
 .pie{
