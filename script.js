@@ -168,7 +168,7 @@ window.addEventListener('load', () => {
                 mensaje += `${campo.message} <br/>`;
             });
 
-            document.querySelector('#resultadoValidacion').innerHTML = mensaje;           
+            //document.querySelector('#resultadoValidacion').innerHTML = mensaje;//    
             
         }
     }) 
