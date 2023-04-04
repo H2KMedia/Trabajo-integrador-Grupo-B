@@ -1,3 +1,72 @@
+/*--------------------------------------------------------autocompletado detalle pedido-------------------------------------------------------------*/
+
+
+let bpedido1 = document.getElementById("bpedido1");
+bpedido1.onclick = func1;
+function func1(){
+    let det1 = "Tarta de crema con frutillas.";
+    detalle.innerHTML = det1;
+    console.log(detalle);
+    window.location.href ='#pedido';
+    
+}
+
+
+let bpedido2 = document.getElementById("bpedido2");
+bpedido2.onclick = func2;
+function func2(){
+    let det2 = "Pastel con salsa de caramelo y nueces.";
+    detalle.innerHTML = det2;
+    console.log(detalle);
+    window.location.href ='#pedido';
+    
+}
+
+
+let bpedido3 = document.getElementById("bpedido3");
+bpedido3.onclick = func3;
+function func3(){
+    let det3 = "Pastel de chocolate con salsa de chocolate y chispas.";
+    detalle.innerHTML = det3;
+    console.log(detalle);
+    window.location.href ='#pedido';
+    
+}
+
+let bpedido4 = document.getElementById("bpedido4");
+bpedido4.onclick = func4;
+function func4(){
+    let det4 = "Bizcochuelo de crema y frutos del bosque.";
+    detalle.innerHTML = det4;
+    console.log(detalle);
+    window.location.href ='#pedido';
+    
+}
+
+
+let bpedido5 = document.getElementById("bpedido5");
+bpedido5.onclick = func5;
+function func5(){
+    let det5 = "Cupcake frutos tropicales.";
+    detalle.innerHTML = det5;
+    console.log(detalle);
+    window.location.href ='#pedido';
+    
+}
+
+let bpedido6 = document.getElementById("bpedido6");
+bpedido6.onclick = func6;
+function func6(){
+    let det6 = "Tarta de crema y nueces.";
+    detalle.innerHTML = det6;
+    console.log(detalle);
+    window.location.href ='#pedido';
+    
+}
+
+/*------------------------------------------------------------fin autocompletado pedido--------------------------------------------------------------*/
+
+
 window.jsPDF = window.jspdf.jsPDF;
 
 $('#submit-btn').click(function(){

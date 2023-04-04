@@ -577,7 +577,6 @@ label{
 }
 
 .nosotrostxt{
-  z-index: 1;
   position:absolute;
   width: 450px;
   height: 69px;
@@ -862,8 +861,9 @@ label{
 
 .desarrolladores{
   position: absolute;
-  font-size: 1em;
-  font-style: italic;
+  font-size: 1.2em;
+  font-style:italic;
+  font-display:inherit;
   top: 65px;
   left: 156px;
 
@@ -872,16 +872,16 @@ label{
 .seguinos{
   position: absolute;
   top: 20px;
-  left: 828px;
+  left: 930px;
   color: #343434;
 }
 
 .redessociales{
   position: absolute;
-  left: 830px;
+  left: 930px;
   top: 65px;
-  width: 500px;
+  width: 400px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content:space-between;
 }
