@@ -226,7 +226,7 @@
                                 <img src="./images/Pastel-caja-regalo.png" alt="Caja pastel" width="411px" height="392px" >
                             </div>
 
-                                <form id="user-form" class="form">
+                                <form id="user-form" class="form" onSubmit="return FormValidator()">
                                     <div class="form-box">
                                         <label class="label" for="nombre">Nombre <span>*</span></label>
                                         <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
@@ -311,8 +311,9 @@
 
 <!----------------------------------------------------------------Footer--------------------------------------------------------------------------->
  
+        <footer>
 
-             <div class="pie" id="pie">
+            <div class="pie" id="pie">
                 <div><h5 class="site">Sitio desarrollado por: </h5></div><br>
                 <div><p class="desarrolladores"> Esteban Luna - Victor Moyano Cires - Juan Silva - Eduardo Basta</p></div>
                 <div><h5 class="seguinos">Seguinos en nuestras redes</h5>
@@ -331,6 +332,9 @@
                     </section>
                 </div>
             </div>
+
+        </footer>
+            
 
                 <!-- JS PARA GENERAR ARCHIVOS PDF -->
                 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
