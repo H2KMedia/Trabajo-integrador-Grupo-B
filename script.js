@@ -48,3 +48,61 @@ $('#btnContacto').click(function(){
     doc.save('contacto.pdf');
 })
 
+window.addEventListener('load', () => {                    
+    let validaFormulario = new FormValidator('user-form', [{
+        
+        name: 'nombre',
+        display: 'Nombre',
+        rules: 'required|min_length[4]|alpha'
+    },
+
+    {
+        name: 'apellido',
+        display: 'Apellido',
+        rules: 'required|min_length[4]|alpha'
+    },
+
+    {
+        name: 'calle',
+        display: 'Calle',
+        rules: 'required|min_length[5]|alpha'
+    },
+
+    {
+        name: 'numero',
+        display: 'Numero',
+        rules: 'required|max_length[4]|numeric|integer'
+    },
+
+    {
+        name: 'barrio',
+        display: 'Barrio',
+        rules: 'required|min_length[4]|alpha_numeric'
+    },
+    
+    {
+        name: 'telefono',
+        display: 'Telefono',
+        rules: 'required|max_length[15]|',
+        RegExp: '[0-9]+\s[0-9]+\s[0-9]+'
+    },
+
+    {
+        name: 'detalle',
+        display: 'Detalle',
+        rules: 'required|min_length[20]|alpha'
+    }], function(err, ev){
+        if(err.length){
+            let mensaje = '';
+            
+            err.forEach(function(campo, indice, arreglo){
+                mensaje += `${campo.message} <br/>`;
+            });
+
+            document.querySelector('#resultadoValidacion').innerHTML = mensaje;           
+            
+        }
+    }) 
+
+    
+})
