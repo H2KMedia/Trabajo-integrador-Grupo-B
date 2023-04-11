@@ -95,8 +95,8 @@ $('#submit-btn').click(function(){
     doc.save('pedido.pdf');
 })
 
-$('#btnContacto').click(function(){
-    
+$('#btnContacto').click(function(e){
+    e.preventDefault();
     let doc = new jsPDF();
         // var content = document.getElementById('txtContent'),
         //let button = document.getElementById('btnDownload');
