@@ -99,13 +99,13 @@ h1{
   width: 461px;
   height: 291px;
   left: 247px;
-  top: 275px;
+  top: 220px;
 
   
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style:normal;
   font-weight: 100;
-  font-size: 96px;
+  font-size: 90px;
   line-height: 80%;
     
 }
@@ -164,13 +164,14 @@ p{
   
 }
 
-#p1{
+.p1{
   position:absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
   width: 550px;
   height: 105px;
   left: 247px;
-  
-  top: 450px;
+  top: 400px;
   
   
 }
@@ -185,7 +186,7 @@ label{
   width: 1440px;
   height:500px;
   left: auto;
-  top: 550px;
+  top: 580px;
   
 
 }
@@ -207,25 +208,27 @@ label{
   width: 352px;
   height: 621px;
   left: 950px;
-  top: 110px;
+  top: 150px;
 }
 
 
 
-#h2ep{
+.h2ep{
   position: absolute;
   width: 551px;
   height: 168px;
   left: 400px;
-  top: 275px;
+  top: 300px;
 
 }
 .p2elaboracion{
   position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
   width: 551px;
   height: 240px;
   left: 400px;
-  top: 420px;
+  top: 460px;
 }
 
 
