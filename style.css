@@ -13,18 +13,12 @@ html{
   max-width: 1440px;   
 }
 
-
 a{
   text-decoration: none;
   color: black;
   align-content: center;
 }
-
 /*---------------------------------------------------------------------------header / navbar----------------------------------------------------------------------*/
-
-
-
-
 header{
   z-index: 1;
   position: fixed;
