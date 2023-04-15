@@ -13,18 +13,12 @@ html{
   max-width: 1440px;   
 }
 
-
 a{
   text-decoration: none;
   color: black;
   align-content: center;
 }
-
 /*---------------------------------------------------------------------------header / navbar----------------------------------------------------------------------*/
-
-
-
-
 header{
   z-index: 1;
   position: fixed;
@@ -66,14 +60,7 @@ nav a:hover{
 
   color: #ff9f0d;
 }
-
-
-
-
 /*---------------------------------------------------------------------------------Hero----------------------------------------------------------------------*/
-
-
-
 .portada{
   position: absolute;
   width: 1440px;
@@ -81,17 +68,13 @@ nav a:hover{
   left: auto;
   top: 57px;
 }
-
 /*---------------------------------------------------------------------------Pastelería Artesanal----------------------------------------------------------------------*/
-
-
 .imgPortada{
   position: absolute;
   width: 862px;
   height: 573px;
   left: 578px;
   top: 0px;
-
 }
 
 h1{
@@ -100,14 +83,11 @@ h1{
   height: 291px;
   left: 247px;
   top: 220px;
-
-  
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style:normal;
   font-weight: 100;
   font-size: 90px;
   line-height: 80%;
-    
 }
 
 h2{
@@ -150,10 +130,7 @@ h5{
   display: flex;
   align-items:center;
   color:#000000;
-  
 }
-
-
 
 p{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -172,8 +149,6 @@ p{
   height: 105px;
   left: 247px;
   top: 400px;
-  
-  
 }
 
 label{
@@ -187,14 +162,8 @@ label{
   height:500px;
   left: auto;
   top: 580px;
-  
-
 }
-
-
 /*-------------------------------------------------------------------------Elaboración propia----------------------------------------------------------------------*/
-
-
 .fondo{
   position: absolute;
   width: 404px;
@@ -211,15 +180,12 @@ label{
   top: 150px;
 }
 
-
-
 .h2ep{
   position: absolute;
   width: 551px;
   height: 168px;
   left: 400px;
   top: 300px;
-
 }
 .p2elaboracion{
   position: absolute;
@@ -230,26 +196,17 @@ label{
   left: 400px;
   top: 460px;
 }
-
-
-
 /*------------------------------------------------------------------------Destacados----------------------------------------------------------------------*/
-
-
-
 /*div recuadro destacados ref*/
 .dest{
-  
   position:absolute;
   width: 1440px;
   height: 800px;
   left: auto;
   top: 1490px;
-  /*background-color: beige;*/
-
 }
 
-.titulodest{
+  .titulodest{
   position: absolute;
   text-align: center;
   width: 1440px;
@@ -258,9 +215,7 @@ label{
   top: 40px;
   scroll-margin: 100px;
 }
-
 /*recuadro fondito destacados 1*/
-
 .recuadrito1{
   
   position: absolute;
@@ -269,7 +224,6 @@ label{
   left: 156px;
   top: 305px;
   background-color:rgb(255, 207, 134) ;
-  
 }
 
 .img1{
@@ -287,7 +241,6 @@ label{
   position:absolute;
   left: 23px;
   top: 110px;
-  
 }
 
 .d1txt{
@@ -307,9 +260,8 @@ label{
   height: 47px;
   border-radius: 5px;
   box-shadow: 3px 3px 8px rgb(91, 91, 91);
-  
-
 }
+
 .dest button:hover{
   background-color: #343434;
   border: 0px;
@@ -322,16 +274,12 @@ label{
   box-shadow: 3px 3px 8px rgb(0, 0, 0);
 }
 
-
 .bpedido1{
   position:absolute;
   left: 86px;
   top: 280px;
-  
 }
-
 /*recuadro fondito destacados 2*/
-
 .recuadrito2{
   position: absolute;
   width: 360px;
@@ -339,7 +287,6 @@ label{
   left: 539px;
   top: 305px;
   background-color:rgb(255, 207, 134) ;
-  
 }
 
 .img2{
@@ -367,16 +314,12 @@ label{
   top: 165px;
 }
 
-
 .bpedido2{
   position:absolute;
   left: 86px;
   top: 280px;
-  
 }
-
 /*recuadro fondito destacados 3*/
-
 .recuadrito3{
   position: absolute;
   width: 360px;
@@ -384,7 +327,6 @@ label{
   left: 923px;
   top: 305px;
   background-color:rgb(255, 207, 134) ;
-  
 }
 
 .img3{
@@ -412,16 +354,12 @@ label{
   top: 165px;
 }
 
-
 .bpedido3{
   position:absolute;
   left: 86px;
   top: 280px;
-  
 }
-
 /*recuadro fondito destacados 4*/
-
 .recuadrito4{
   position: absolute;
   width: 360px;
@@ -429,7 +367,6 @@ label{
   left: 156px;
   top: 835px;
   background-color:rgb(255, 207, 134) ;
-  
 }
 
 .img4{
@@ -457,16 +394,12 @@ label{
   top: 165px;
 }
 
-
 .bpedido4{
   position:absolute;
   left: 86px;
   top: 280px;
-  
 }
-
 /*recuadro fondito destacados 5*/
-
 .recuadrito5{
   position: absolute;
   width: 360px;
@@ -474,7 +407,6 @@ label{
   left: 539px;
   top: 835px;
   background-color:rgb(255, 207, 134) ;
-  
 }
 
 .img5{
@@ -502,16 +434,12 @@ label{
   top: 165px;
 }
 
-
 .bpedido5{
   position:absolute;
   left: 86px;
   top: 280px;
-  
 }
-
 /*recuadro fondito destacados 6*/
-
 .recuadrito6{
   position: absolute;
   width: 360px;
@@ -519,7 +447,6 @@ label{
   left: 923px;
   top: 835px;
   background-color:rgb(255, 207, 134) ;
-  
 }
 
 .img6{
@@ -547,26 +474,18 @@ label{
   top: 165px;
 }
 
-
 .bpedido6{
   position:absolute;
   left: 86px;
   top: 110px;
-  
 }
-
 /*---------------------------------------------------------------------------Nosotros----------------------------------------------------------------------*/
-
-
-
 .nosotros{
-  
   position:absolute;
   width: 1440px;
   height: 740px;
   left: auto;
   top: 1450px;
-  
 }
 
 .sobrenosotros{
@@ -576,7 +495,6 @@ label{
   left: 539px;
   top: 0px;
   scroll-margin-top: 150px;
-
 }
 
 .nosotrostxt{
@@ -585,8 +503,6 @@ label{
   height: 69px;
   left: 539px;
   top: 80px;
-  
-
 }
 
 .local{
@@ -603,24 +519,15 @@ label{
   height: 554px;
   right: 0px;
   top: 0px;
-
 }
-
-
 /*---------------------------------------------------------------------------Form Pedido----------------------------------------------------------------------*/
-
-
-
-
 .pedido{
-
   position:absolute;
   width: 1440px;
   height: 840px;
   left: auto;
   top: 2150px;
   scroll-margin-top: 76px;
-  
 }
 
 .titPedido{
@@ -629,11 +536,9 @@ label{
   height: 64px;
   left: 156px;
   top: 0px;
-  
 }
 
 .form-container{
-  
   position: absolute;
   width: 1128px;
   height: 670px;
@@ -642,22 +547,18 @@ label{
   background-color:#ff9f0d;
   min-height: 46%;
   padding: 50px;
-  
-
 }
 
 .form{
   display: grid;
   grid-template-columns: 1fr 1fr ;
   gap: 12px;
-  
 }
 
 .form-box{
   line-height: 20px;
   padding-bottom: 20px;
   margin-bottom: 10px;
-
 }
 
 .form-box input{
@@ -667,7 +568,6 @@ label{
   border-radius: 5px;
   padding: 15px;
   line-height: 20Px;
-
 }
 
 .form-box button{
@@ -675,7 +575,6 @@ label{
   top: 530px;
   left:  1200px;
 }
-
 
 .form-box button{
   position: absolute;
@@ -691,7 +590,6 @@ label{
   border-radius: 5px;
   box-shadow: 3px 3px 8px rgb(58, 57, 57);
   left: auto;
-
 }
 
 .form-box button:hover{
@@ -699,26 +597,20 @@ label{
   border: 0px;
   color:white;
   font-weight: 600;
-
   transition-delay: 10ms;
   height: 47px;
   border-radius: 5px;
   box-shadow: 3px 3px 8px rgb(0, 0, 0);
 }
 
-
-
 .form-box button:disabled{
   background-color: #a4a4a4;
   color:lightgrey;
 }
 
-
 .form-box input:focus{
   outline-color: #3456bbc6;
-
 }
-
 
 .caja{
   position: absolute;
@@ -743,32 +635,21 @@ label{
 
 .form-box .form-succes input{
   border-bottom: 2px solid #3456bbc6;
-
 }
-
-
 /*---------------------------------------------------------------------------Form Contacto----------------------------------------------------------------------*/
-
-
 .contacto{
   position:absolute;
   width: 1440px;
   height: 550px;
- 
   top: 900px;
   scroll-margin-top: 76px;
-  /*background-color:#686868;*/
-
 }
-
-
 
 .contacto-titulo{
   position: absolute;
   margin: 0;
   top: 0;
   left: 156px;
-
 }
 
 .fondo-contacto{
@@ -780,8 +661,6 @@ label{
   top: 86px;
   background-color:#ff9f0d;
   box-shadow: 0 0 5px 0 rgb(0, 0, 0);
-  
-
 }
 
 .fondo-contacto input{
@@ -793,10 +672,6 @@ label{
   line-height: 40Px;
 }
 
-
-
-
-
 .contactForm p{
   margin: 10px;
   padding: 1em;
@@ -805,7 +680,6 @@ label{
 
 .fondo-contacto form p{
   text-align: left;
-  
 }
 
 .fondo-contacto form input{
@@ -821,7 +695,6 @@ label{
 .fondo-contacto form .block{
   display: grid;
   grid-column: 1 / 3;
-
 }
 
 #btnContacto,
@@ -859,7 +732,6 @@ label{
   top: 20px;
   left: 156px;
   color: #343434;
-
 }
 
 .desarrolladores {
@@ -875,6 +747,7 @@ label{
   display: inline;
   margin-bottom: 0;
 }
+
 .desarrolladores {
   text-align: center;
   color: rgba(255,255,255,0.1);
@@ -900,6 +773,7 @@ label{
   background-position: 0 0;
   background-color: #222;
 }
+
 @-moz-keyframes desarrolladores {
   0% {
     background-position: top left;
@@ -908,6 +782,7 @@ label{
     background-position: top right;
   }
 }
+
 @-webkit-keyframes desarrolladores {
   0% {
     background-position: top left;
@@ -916,6 +791,7 @@ label{
     background-position: top right;
   }
 }
+
 @-o-keyframes desarrolladores {
   0% {
     background-position: top left;
@@ -924,6 +800,7 @@ label{
     background-position: top right;
   }
 }
+
 @keyframes desarrolladores {
   0% {
     background-position: top left;
@@ -936,6 +813,7 @@ label{
 .desarrolladores :hover {
   text-shadow: 3px 3px 3px #383838
 }
+
 .seguinos{
   position: absolute;
   top: 20px;
