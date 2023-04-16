@@ -99,13 +99,13 @@ h1{
   width: 461px;
   height: 291px;
   left: 247px;
-  top: 275px;
+  top: 220px;
 
   
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style:normal;
   font-weight: 100;
-  font-size: 96px;
+  font-size: 90px;
   line-height: 80%;
     
 }
@@ -164,13 +164,14 @@ p{
   
 }
 
-#p1{
+.p1{
   position:absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
   width: 550px;
   height: 105px;
   left: 247px;
-  
-  top: 450px;
+  top: 400px;
   
   
 }
@@ -180,18 +181,19 @@ label{
   font-size: medium;
 }
 
+
+/*-------------------------------------------------------------------------Elaboración propia----------------------------------------------------------------------*/
+
+
 .elaboracion{
   position: absolute;
   width: 1440px;
   height:500px;
   left: auto;
-  top: 550px;
+  top: 625px;
   
 
 }
-
-
-/*-------------------------------------------------------------------------Elaboración propia----------------------------------------------------------------------*/
 
 
 .fondo{
@@ -207,25 +209,27 @@ label{
   width: 352px;
   height: 621px;
   left: 950px;
-  top: 110px;
+  top: 150px;
 }
 
 
 
-#h2ep{
+.h2ep{
   position: absolute;
   width: 551px;
   height: 168px;
   left: 400px;
-  top: 275px;
+  top: 300px;
 
 }
 .p2elaboracion{
   position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
   width: 551px;
   height: 240px;
   left: 400px;
-  top: 420px;
+  top: 460px;
 }
 
 
@@ -241,7 +245,7 @@ label{
   width: 1440px;
   height: 800px;
   left: auto;
-  top: 1490px;
+  top: 1600px;
   /*background-color: beige;*/
 
 }
@@ -562,7 +566,7 @@ label{
   width: 1440px;
   height: 740px;
   left: auto;
-  top: 1450px;
+  top: 3000px;
   
 }
 
@@ -615,7 +619,7 @@ label{
   width: 1440px;
   height: 840px;
   left: auto;
-  top: 2150px;
+  top: 3700px;
   scroll-margin-top: 76px;
   
 }
@@ -750,14 +754,10 @@ label{
 .contacto{
   position:absolute;
   width: 1440px;
-  height: 550px;
- 
+  height: 550px; 
   top: 900px;
   scroll-margin-top: 76px;
-  /*background-color:#686868;*/
-
 }
-
 
 
 .contacto-titulo{
@@ -765,7 +765,6 @@ label{
   margin: 0;
   top: 0;
   left: 156px;
-
 }
 
 .fondo-contacto{
@@ -776,10 +775,7 @@ label{
   left: 156px;
   top: 86px;
   background-color:#ff9f0d;
-  box-shadow: 0 0 5px 0 rgb(0, 0, 0);
-  
-
-}
+  }
 
 .fondo-contacto input{
   display: block;
@@ -787,11 +783,8 @@ label{
   border: 1px solid;
   border-radius: 5px;
   padding: 25px;
-  line-height: 40Px;
+  border: 5;
 }
-
-
-
 
 
 .contactForm p{
@@ -802,7 +795,6 @@ label{
 
 .fondo-contacto form p{
   text-align: left;
-  
 }
 
 .fondo-contacto form input{
@@ -818,18 +810,24 @@ label{
 .fondo-contacto form .block{
   display: grid;
   grid-column: 1 / 3;
-
 }
 
 #btnContacto,
 .fondo-contacto form input,
 .fondo-contacto form textarea{
   width: 100%;
-  text-align:center;
+  text-align:center;  
 }
 
 #btnContacto{
   background-color: #396ac6;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color:rgb(255, 255, 255);
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px rgb(58, 57, 57);
 }
 
 #btnContacto:hover{
